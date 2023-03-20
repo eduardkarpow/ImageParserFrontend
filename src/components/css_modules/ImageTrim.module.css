@@ -1,0 +1,61 @@
+.trimWrap{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.sizePickWrapper{
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+
+}
+.sizePickWrap{
+    width: 30%;
+    background-color: rgba(200, 200, 200,.3);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.sizePick{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.sizePick>h2{
+    margin:0 5px;
+}
+.sizePickItem{
+    display: flex;
+}
+.sizePickItem>input{
+    width: 40px;
+}
+.apply{
+    outline: none;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    padding: 4px;
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+.image{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.window{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    top:0px;
+    left:0px;
+    z-index:1;
+    background-color: rgba(200, 200, 200,.3);
+    border: 1px solid black;
+}
